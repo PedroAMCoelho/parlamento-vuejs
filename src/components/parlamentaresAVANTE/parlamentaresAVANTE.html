@@ -1,0 +1,22 @@
+<div class="container">
+    <h2>{{informacaoAVANTE.nome}}</h2><div class="item1 avatar">
+      <img v-bind:src="informacaoAVANTE.urlLogo"
+          alt="AVANTE-imagem">
+      
+  </div>
+    <ul class="list-group">
+        <li class="list-group-item" v-for="parlamentar of parlamentaresAVANTE">
+          <div class="grid-container-3-rows">
+            <div class="item1 avatar">
+                <img v-bind:src="parlamentar.urlFoto"
+                    alt="parlamentar-imagem">
+                
+            </div>             
+            <span class="item2">{{parlamentar.nome}}</span>           
+            <p class="item3">E-mail: {{parlamentar.email}}</p>
+            <span class="item item4">UF: {{parlamentar.siglaUf}}</span>
+ 
+            </div>           
+        </li>        
+    </ul>
+</div>

@@ -1,0 +1,67 @@
+.caixa-footer {
+    position: relative;
+    padding: 20px;
+}
+
+.caixa-destaque{
+    margin-top: 10px;
+}
+
+.busca h2, .busca input, h2{
+    margin: 10px;
+}
+
+.busca{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.busca input{
+    vertical-align: middle;
+}
+
+.busca input[type='search']{
+    width: 170px;
+    height: 25px;
+    border-radius: 10px;
+}
+.busca, .menu‐departamentos{
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;    
+}
+.img-responsive {
+    margin: 0 auto;
+}
+
+
+@media (max-width: 320px) { 
+    .busca input[type='search'] {
+        width: 17em;
+    }
+    .busca input[type='image'] {
+        width: 1.7em;
+    }
+    .busca {
+        width: 20em;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .busca{
+        margin-right: 150px;
+        
+        width: 100%;
+    }
+    .busca input {
+        width: 30em;
+    }
+    .busca input[type='search'] {
+        width: 17em;
+    }
+    .busca input[type='image'] {
+        width: 1.7em;
+    }
+}
